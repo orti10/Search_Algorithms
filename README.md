@@ -22,3 +22,6 @@ h(u,v)= |ux-vx|+|uy-vy|
 # Admissible
 Manhattan distance is an admissible heuristic in this case because every "_" will have to be moved at least the number of spots in between itself and the goal position.
 So, h(n)<=s(n) while s(n) is the exact lowest cost from Node n to goal as required.
+
+
+![](https://raw.githubusercontent.com/asdoctor612568/8Puzzle-Solver-BFS-A-Star-DFS/356e9ed0bf6bebdd4ca4976d42bfab3bf7871e60/whenSolveClicked.gif)
